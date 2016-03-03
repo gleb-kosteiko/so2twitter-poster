@@ -27,7 +27,7 @@ public class SO2TP_QuestionProcessor{
             String title = (String)p.get('title');
             String message = (title.length()<=100 ? title : title.left(100)+'...')+' '+link;
             
-            TWB_TwitterUtil tu = new TWB_TwitterUtil(
+            SO2TP_TwitterUtil tu = new SO2TP_TwitterUtil(
                     settings.SO2TP_twitterApplicationApiKey__c, 
                     settings.SO2TP_twitterApplicationApiSecret__c, 
                     settings.SO2TP_twitterAccessToken__c, 

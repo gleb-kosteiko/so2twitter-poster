@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>SO2TP_QuestionProcessor</members>
+        <members>SO2TP_ScheduleTweetGenerator</members>
+        <members>SO2TP_SettingsController</members>
+        <members>SO2TP_StringUtil</members>
+        <members>SO2TP_TwitterUtil</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SO2TP_Settings</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>SO2TP_Settings__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>SO2TP_Settings__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>SO2TP_Settings</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>StackoverflowAPI</members>
+        <members>twitter</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <version>33.0</version>
+</Package>

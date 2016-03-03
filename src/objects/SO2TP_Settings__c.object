@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <customSettingsVisibility>Protected</customSettingsVisibility>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>SO2TP_baseSoUrl__c</fullName>
+        <defaultValue>&quot;https://api.stackexchange.com/2.2/questions?pagesize=99&amp;order=asc&amp;sort=creation&amp;site=stackoverflow&amp;tagged=&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Stackoverflow base API URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO2TP_questionTags__c</fullName>
+        <externalId>false</externalId>
+        <label>Stackoverflow question tags</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO2TP_twitterAccessTokenSecret__c</fullName>
+        <externalId>false</externalId>
+        <label>Twitter access token secret</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO2TP_twitterAccessToken__c</fullName>
+        <externalId>false</externalId>
+        <label>Twitter access token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO2TP_twitterApplicationApiKey__c</fullName>
+        <externalId>false</externalId>
+        <label>Twitter application API key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO2TP_twitterApplicationApiSecret__c</fullName>
+        <externalId>false</externalId>
+        <label>Twitter application API secret</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>so2twitter-poster settings</label>
+</CustomObject>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>so2twitter-poster settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>so2twitter-poster settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Stackoverflow base API URL --></label>
+        <name>SO2TP_baseSoUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stackoverflow question tags --></label>
+        <name>SO2TP_questionTags__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter access token secret --></label>
+        <name>SO2TP_twitterAccessTokenSecret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter access token --></label>
+        <name>SO2TP_twitterAccessToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter application API key --></label>
+        <name>SO2TP_twitterApplicationApiKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter application API secret --></label>
+        <name>SO2TP_twitterApplicationApiSecret__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

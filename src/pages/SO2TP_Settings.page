@@ -1,0 +1,20 @@
+<apex:page controller="SO2TP_SettingsController">
+    <apex:messages />
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!Save}" value="Save"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="2" collapsible="false" title="Twitter settings">
+                <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterAccessToken__c}"/>
+                <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterAccessTokenSecret__c}"/>
+                <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterApplicationApiKey__c}"/>
+                <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterApplicationApiSecret__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="2" collapsible="false" title="Stackoverflow settings">
+                <apex:inputField required="true" value="{!so2tpSettings.SO2TP_baseSoUrl__c}"/>
+                <apex:inputTextarea required="true" value="{!so2tpSettings.SO2TP_questionTags__c}" rows="4" style="width:90%"/>
+            </apex:pageBlockSection>       
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

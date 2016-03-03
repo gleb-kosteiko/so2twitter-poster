@@ -1,2 +1,5 @@
 language: java
-script: ant -Dtest.level=RunLocalTests test
+script: ant build
+
+before_install:
+  - echo $(ant -version)

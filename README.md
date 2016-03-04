@@ -3,7 +3,17 @@
 [![Build Status](https://travis-ci.org/last-khajiit/so2twitter-poster-bot.svg?branch=master)](https://travis-ci.org/last-khajiit/so2twitter-poster-bot)
 
 Bot for posting new Stackoverflow questions with defined tags to Twitter, created in Salesforce
- 
+
+###Deploy and configuration 
+1. Clone the project and deploy to your SF org
+2. Go to "So2Twitter Poster settings" tab and fill all the necessary settings 
+3. Go to Setup -> Develop -> Apex Classes and schedule "SO2TP_ScheduleTweetGenerator" class for daily execution
+4. Click "Start aggregation" button and check job execution results
+
+###ToDo
+1. Add validation for duplicate questions
+2. Add processing of all retrieved questions (not only first result page)
+3. Add statistics about previous job execution, exception validation, etc
 
 
 *Feel free to make pull requests!*

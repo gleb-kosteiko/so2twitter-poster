@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/last-khajiit/so2twitter-poster-bot.svg?branch=master)](https://travis-ci.org/last-khajiit/so2twitter-poster-bot)
 
-Bot for posting new Stackoverflow questions with defined tags to Twitter, created in Salesforce
+Bot for posting new Stackoverflow questions to Twitter, created in Salesforce
+
+![Screenshot](settings-page.png)
 
 ###Deploy and configuration 
 1. Clone the project and deploy to your SF org

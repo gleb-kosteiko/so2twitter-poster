@@ -11,6 +11,7 @@
                 <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterAccessTokenSecret__c}"/>
                 <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterApplicationApiKey__c}"/>
                 <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterApplicationApiSecret__c}"/>
+                <apex:inputField value="{!so2tpSettings.SO2TP_tweetOnlyUnanswered__c}"/>                
             </apex:pageBlockSection>
             <apex:pageBlockSection columns="2" collapsible="false" title="Stackoverflow settings">
                 <apex:inputField required="true" value="{!so2tpSettings.SO2TP_baseSoUrl__c}"/>

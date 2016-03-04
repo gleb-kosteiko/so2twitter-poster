@@ -5,7 +5,7 @@
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
 
-[![Build Status](https://travis-ci.org/last-khajiit/so2twitter-poster-bot.svg?branch=master)](https://travis-ci.org/last-khajiit/so2twitter-poster-bot) [![HitCount](https://hitt.herokuapp.com/last-khajiit/so2twitter-poster-bot.svg)](https://github.com/last-khajiit/so2twitter-poster-bot)
+[![release](https://img.shields.io/badge/release-v0.1-brightgreen.png?style=default)](https://github.com/last-khajiit/so2twitter-poster-bot/releases/latest) [![Build Status](https://travis-ci.org/last-khajiit/so2twitter-poster-bot.svg?branch=master)](https://travis-ci.org/last-khajiit/so2twitter-poster-bot) [![HitCount](https://hitt.herokuapp.com/last-khajiit/so2twitter-poster-bot.svg)](https://github.com/last-khajiit/so2twitter-poster-bot)
 
 Bot for posting new Stackoverflow questions to Twitter, created in Salesforce
 

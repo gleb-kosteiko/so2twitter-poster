@@ -1,4 +1,4 @@
-<apex:page controller="SO2TP_SettingsController">
+<apex:page controller="SO2TP_SettingsController" sidebar="false">
     <apex:messages />
     <apex:form >
         <apex:pageBlock >
@@ -10,11 +10,10 @@
                 <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterAccessToken__c}"/>
                 <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterAccessTokenSecret__c}"/>
                 <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterApplicationApiKey__c}"/>
-                <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterApplicationApiSecret__c}"/>
-                <apex:inputField value="{!so2tpSettings.SO2TP_tweetOnlyUnanswered__c}"/>                
+                <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterApplicationApiSecret__c}"/>                                
             </apex:pageBlockSection>
             <apex:pageBlockSection columns="2" collapsible="false" title="Stackoverflow settings">
-                <apex:inputField required="true" value="{!so2tpSettings.SO2TP_baseSoUrl__c}"/>
+                <apex:inputField value="{!so2tpSettings.SO2TP_tweetOnlyUnanswered__c}"/>
                 <apex:inputTextarea required="true" value="{!so2tpSettings.SO2TP_questionTags__c}" rows="4" style="width:90%"/>
             </apex:pageBlockSection>       
         </apex:pageBlock>

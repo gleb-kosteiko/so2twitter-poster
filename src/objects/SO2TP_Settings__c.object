@@ -4,23 +4,20 @@
     <customSettingsVisibility>Protected</customSettingsVisibility>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>SO2TP_baseSoUrl__c</fullName>
-        <defaultValue>&quot;https://api.stackexchange.com/2.2/questions?pagesize=99&amp;order=desc&amp;sort=creation&amp;site=stackoverflow&quot;</defaultValue>
-        <externalId>false</externalId>
-        <label>Stackoverflow base API URL</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>SO2TP_questionTags__c</fullName>
         <externalId>false</externalId>
         <label>Stackoverflow question tags</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO2TP_tweetOnlyUnanswered__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Tweet only unanswered</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>SO2TP_twitterAccessTokenSecret__c</fullName>
@@ -61,14 +58,6 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SO2TP_tweetOnlyUnanswered__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Tweet only unanswered</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
     </fields>
     <label>so2twitter-poster settings</label>
 </CustomObject>

@@ -5,7 +5,7 @@ public class SO2TP_QuestionProcessor{
 
     public SO2TP_QuestionProcessor(){
         settings = SO2TP_Settings__c.getOrgDefaults();
-        soUrl = settings.SO2TP_baseSoUrl__c;
+        soUrl = SO2TP_Constants.SO_URL;
         tags = settings.SO2TP_questionTags__c.split(',');
     }
     

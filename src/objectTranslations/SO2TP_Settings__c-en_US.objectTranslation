@@ -17,6 +17,10 @@
         <name>SO2TP_questionTags__c</name>
     </fields>
     <fields>
+        <label><!-- Tweet only unanswered --></label>
+        <name>SO2TP_tweetOnlyUnanswered__c</name>
+    </fields>
+    <fields>
         <label><!-- Twitter access token secret --></label>
         <name>SO2TP_twitterAccessTokenSecret__c</name>
     </fields>

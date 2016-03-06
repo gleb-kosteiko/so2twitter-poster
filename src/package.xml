@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>SO2TP_Constants</members>
         <members>SO2TP_QuestionProcessor</members>
         <members>SO2TP_ScheduleTweetGenerator</members>
         <members>SO2TP_SettingsController</members>
@@ -24,6 +25,10 @@
     <types>
         <members>SO2TP_Settings</members>
         <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
     </types>
     <types>
         <members>StackoverflowAPI</members>

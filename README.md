@@ -5,7 +5,7 @@
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
 
-[![release](https://img.shields.io/badge/release-v0.1-brightgreen.png?style=default)](https://github.com/last-khajiit/so2twitter-poster-bot/releases/latest) [![Build Status](https://travis-ci.org/last-khajiit/so2twitter-poster.svg?branch=master)](https://travis-ci.org/last-khajiit/so2twitter-poster) [![HitCount](https://hitt.herokuapp.com/last-khajiit/so2twitter-poster-bot.svg)](https://github.com/last-khajiit/so2twitter-poster-bot)
+[![release](https://img.shields.io/badge/release-v0.2-brightgreen.png?style=default)](https://github.com/last-khajiit/so2twitter-poster/releases/latest) [![Build Status](https://travis-ci.org/last-khajiit/so2twitter-poster.svg?branch=master)](https://travis-ci.org/last-khajiit/so2twitter-poster) [![HitCount](https://hitt.herokuapp.com/last-khajiit/so2twitter-poster.svg)](https://github.com/last-khajiit/so2twitter-poster)
 
 Bot for posting new Stackoverflow questions to Twitter, created in Salesforce.
 
@@ -14,7 +14,7 @@ Bot aggregates Stackoverflow questions over the past 24 hours, and tweets their.
 ![Screenshot](settings-page.png)
 
 ###Deploy and configuration 
-1. Click "Deploy to Salesforce" button or clone the project and deploy it from your computer
+1. Click "Deploy to Salesforce" button or clone and deploy it manually
 2. Go to "So2Twitter Poster settings" tab and fill all the necessary settings 
 3. Click "Start aggregation" button and check job execution results in Twitter
 4. Go to Setup -> Develop -> Apex Classes and schedule "SO2TP_ScheduleTweetGenerator" class for daily execution

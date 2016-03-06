@@ -6,7 +6,7 @@
         <members>SO2TP_ScheduleTweetGenerator</members>
         <members>SO2TP_SettingsController</members>
         <members>SO2TP_StringUtil</members>
-		<members>SO2TP_TestStringUtil</members>
+        <members>SO2TP_TestStringUtil</members>
         <members>SO2TP_TwitterUtil</members>
         <name>ApexClass</name>
     </types>

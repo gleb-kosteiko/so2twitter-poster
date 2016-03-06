@@ -10,6 +10,7 @@ public class SO2TP_QuestionProcessor{
     }
     
     public void processNewQuestions(){
+        clearPreviousStatistics();
         if(!tags.isEmpty()){
             for(String tag: tags){
                 String taggedUrl = soUrl + (!String.isBlank(tag)? '&tagged='+tag : '');
@@ -19,22 +20,32 @@ public class SO2TP_QuestionProcessor{
             agregateNewQuestions(soUrl);
         }
     }
+    
+    private void clearPreviousStatistics(){
+        settings.SO2TP_tweetsAmount__c=0;
+        settings.SO2TP_runningRequests__c='';
+        update settings;
+    }
         
     @future(callout=true)
-    public static void agregateNewQuestions(String finaSolUrl){       
+    public static void agregateNewQuestions(String finalSoUrl){       
         Http http = new Http(); 
         HttpRequest req = new HttpRequest();
-        req.setEndpoint(finaSolUrl);
+        req.setEndpoint(finalSoUrl);
         req.setMethod('GET');
         
+        System.debug('>>> SO request URL = '+finalSoUrl);
+        SO2TP_Settings__c stngs = SO2TP_Settings__c.getOrgDefaults();
+        stngs.SO2TP_runningRequests__c = String.isBlank(stngs.SO2TP_runningRequests__c)?
+                stngs.SO2TP_runningRequests__c = finalSoUrl : stngs.SO2TP_runningRequests__c +'\n '+finalSoUrl;
+        //update stngs;
+          
         HttpResponse res = http.send(req);
         Map<String, Object> m = (Map<String, Object>) JSON.deserializeUntyped(res.getBody());
-        List<Object> questions = (List<Object>) m.get('items');
-        
-        Integer tweetCounter = 0; //clear it later
-        for (Object q : questions) {
+        List<Object> questions = (List<Object>) m.get('items');                
+        for (Object q : questions){
             Map<String, Object> p = (Map<String, Object>)q;
-            if(SO2TP_Settings__c.getOrgDefaults().SO2TP_tweetOnlyUnanswered__c
+            if(stngs.SO2TP_tweetOnlyUnanswered__c
                     && (Integer)p.get('answer_count')==0){
                 String link = (String)p.get('link');
                 String title = (String)p.get('title');
@@ -47,11 +58,10 @@ public class SO2TP_QuestionProcessor{
                         SO2TP_Settings__c.getOrgDefaults().SO2TP_twitterAccessTokenSecret__c);
                 boolean isTweetCreated = tu.sendTweet(message, null);
                 if(isTweetCreated){
-                    tweetCounter++;
-                    System.debug('>>> tweet is created = '+isTweetCreated);
+                    stngs.SO2TP_tweetsAmount__c++;
                 }               
             }
-            System.debug('>>> Tweets with similar tag were created = '+tweetCounter);
-        }       
+        }
+        update stngs;       
     }
 }

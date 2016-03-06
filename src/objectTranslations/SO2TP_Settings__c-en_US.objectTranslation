@@ -13,8 +13,16 @@
         <name>SO2TP_questionTags__c</name>
     </fields>
     <fields>
-        <label><!-- Tweet only unanswered --></label>
+        <label><!-- Running requests --></label>
+        <name>SO2TP_runningRequests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aggregate only unanswered --></label>
         <name>SO2TP_tweetOnlyUnanswered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tweets amount --></label>
+        <name>SO2TP_tweetsAmount__c</name>
     </fields>
     <fields>
         <label><!-- Twitter access token secret --></label>

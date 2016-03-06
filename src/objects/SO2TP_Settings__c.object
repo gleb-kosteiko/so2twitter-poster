@@ -12,12 +12,31 @@
         <type>TextArea</type>
     </fields>
     <fields>
+        <fullName>SO2TP_runningRequests__c</fullName>
+        <externalId>false</externalId>
+        <label>Running requests</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>SO2TP_tweetOnlyUnanswered__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Tweet only unanswered</label>
+        <label>Aggregate only unanswered</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO2TP_tweetsAmount__c</fullName>
+        <externalId>false</externalId>
+        <label>Tweets amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>SO2TP_twitterAccessTokenSecret__c</fullName>

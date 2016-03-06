@@ -14,7 +14,11 @@
             </apex:pageBlockSection>
             <apex:pageBlockSection columns="2" collapsible="false" title="Stackoverflow settings">
                 <apex:inputField value="{!so2tpSettings.SO2TP_tweetOnlyUnanswered__c}"/>
-                <apex:inputTextarea required="true" value="{!so2tpSettings.SO2TP_questionTags__c}" rows="4" style="width:90%"/>
+                <apex:inputTextarea value="{!so2tpSettings.SO2TP_questionTags__c}" rows="4" style="width:90%"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="1" collapsible="true" title="Last execution statistics">
+                <apex:outputField value="{!so2tpSettings.SO2TP_tweetsAmount__c}"/>
+                <apex:outputField value="{!so2tpSettings.SO2TP_runningRequests__c}"/>
             </apex:pageBlockSection>       
         </apex:pageBlock>
     </apex:form>

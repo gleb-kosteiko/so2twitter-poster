@@ -14,8 +14,8 @@ Bot for posting new Stackoverflow questions to Twitter, created in Salesforce
 ###Deploy and configuration 
 1. Click "Deploy to Salesforce" button or clone the project and deploy it from your computer
 2. Go to "So2Twitter Poster settings" tab and fill all the necessary settings 
-3. Go to Setup -> Develop -> Apex Classes and schedule "SO2TP_ScheduleTweetGenerator" class for daily execution
-4. Click "Start aggregation" button and check job execution results
+3. Click "Start aggregation" button and check job execution results in Twitter
+4. Go to Setup -> Develop -> Apex Classes and schedule "SO2TP_ScheduleTweetGenerator" class for daily execution
 
 ###ToDo
 1. Add validation for duplicate questions

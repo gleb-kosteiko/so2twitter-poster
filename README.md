@@ -1,4 +1,4 @@
-# so2twitter-poster-bot
+# so2twitter-poster
 
 <a href="https://githubsfdeploy.herokuapp.com/?owner=last-khajiit&repo=so2twitter-poster-bot">
   <img alt="Deploy to Salesforce"

@@ -11,13 +11,14 @@ Bot for posting new Stackoverflow questions to Twitter, created in Salesforce.
 
 Bot aggregates Stackoverflow questions over the past 24 hours, and tweets their. You can note exact tags for questions and choose - should it look for only unanswered questions or not.
 
-![Screenshot](settings-page.png)
+![Screenshot](images/settings-page.png)
 
 ###Deploy and configuration 
 1. Click "Deploy to Salesforce" button or clone and deploy it manually
-2. Go to "So2Twitter Poster settings" tab and fill all the necessary settings 
-3. Click "Start aggregation" button and check job execution results in Twitter
-4. Go to Setup -> Develop -> Apex Classes and schedule "SO2TP_ScheduleTweetGenerator" class for daily execution
+2. Use your Twitter acc for creation Twitter app [https://apps.twitter.com/](https://apps.twitter.com/)
+3. Go to Salesforce "So2Twitter Poster settings" tab and fill all the necessary settings  (use twitter-related from previous step)
+4. Click "Start aggregation" button and check job execution results in Twitter
+5. Go to Setup -> Develop -> Apex Classes and schedule "SO2TP_ScheduleTweetGenerator" class for daily execution
 
 ###ToDo
 1. Add processing of all retrieved questions (not only first result page)

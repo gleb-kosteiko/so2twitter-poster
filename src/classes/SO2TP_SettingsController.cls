@@ -15,8 +15,11 @@ public class SO2TP_SettingsController{
     }
     
     public PageReference startAggregation(){
+        System.enqueueJob(new SO2TP_QuestionProcessor());
+        /*
         SO2TP_QuestionProcessor processor = new SO2TP_QuestionProcessor();
         processor.processNewQuestions();
+        */
         return null;
     }    
 }

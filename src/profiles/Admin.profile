@@ -25,6 +25,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>SO2TP_TweetProcessor</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SO2TP_TwitterUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>

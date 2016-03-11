@@ -30,7 +30,6 @@ Bot aggregates Stackoverflow questions over the past 24 hours, and tweets their.
 1. Add processing of all retrieved questions (not only first result page)
 2. Fix issue with multiple tags (future methods-related)
 3. Add an exception processing & validation
-4. Fix the issue with quotes in tweets
 
 
 

@@ -56,7 +56,7 @@ public class SO2TP_QuestionProcessor{
                         SO2TP_Settings__c.getOrgDefaults().SO2TP_twitterApplicationApiSecret__c, 
                         SO2TP_Settings__c.getOrgDefaults().SO2TP_twitterAccessToken__c, 
                         SO2TP_Settings__c.getOrgDefaults().SO2TP_twitterAccessTokenSecret__c);
-                boolean isTweetCreated = tu.sendTweet(message, null);
+                boolean isTweetCreated = tu.sendTweet(message.unescapeHtml4(), null);
                 if(isTweetCreated){
                     stngs.SO2TP_tweetsAmount__c++;
                 }               

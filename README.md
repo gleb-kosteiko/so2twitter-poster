@@ -17,7 +17,11 @@ Bot for posting new Stackoverflow questions to Twitter, created in Salesforce.
 
 Bot aggregates Stackoverflow questions over the past 24 hours, and tweets their. You can note exact tags for questions and choose - should it look for only unanswered questions or not.
 
+Settings page:
 ![Screenshot](images/settings-page.png)
+
+[My twitter-bot](https://twitter.com/boguslau_ducker):
+![Screenshot](images/twitter-bot-screenshot.png)
 
 ###Deploy and configuration 
 1. Click "Deploy to Salesforce" button or clone and deploy it manually

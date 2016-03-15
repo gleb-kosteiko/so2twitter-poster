@@ -5,7 +5,7 @@
             <apex:pageBlockButtons >
                 <apex:commandButton action="{!save}" value="Save"/>
                 <apex:commandButton action="{!startAggregation}" value="Start aggregation"/>
-                <a href="{!scheduleJobURL}">Scheduled job</a>
+                <a href="{!scheduleJobURL}">{!scheduleJobLabel}</a>
             </apex:pageBlockButtons>
             <apex:pageBlockSection columns="2" collapsible="false" title="Twitter settings">
                 <apex:inputField required="true" value="{!so2tpSettings.SO2TP_twitterAccessToken__c}"/>

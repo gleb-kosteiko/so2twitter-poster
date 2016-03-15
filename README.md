@@ -27,8 +27,8 @@ Settings page:
 1. Click "Deploy to Salesforce" button or clone and deploy it manually
 2. Use your Twitter acc for creation Twitter app [https://apps.twitter.com/](https://apps.twitter.com/)
 3. Go to Salesforce "So2Twitter Poster settings" tab and fill all the necessary settings  (use twitter-related from previous step)
-4. Click "Start aggregation" button and check job execution results in Twitter
-5. Go to Setup -> Develop -> Apex Classes and schedule "SO2TP_ScheduleTweetGenerator" class for daily execution
+4. Click "Aggregate now" button and check job execution results in Twitter
+5. For scheduling iterative execution click "Scheduled job" link, past *SO2TP_ScheduleTweetGenerator* in Job Name and Apex Class fields and set Frequency
 
 ###ToDo
 1. Add processing of all retrieved questions (not only first result page)

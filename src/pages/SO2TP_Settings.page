@@ -4,7 +4,7 @@
         <apex:pageBlock >
             <apex:pageBlockButtons >
                 <apex:commandButton action="{!save}" value="Save"/>
-                <apex:commandButton action="{!startAggregation}" value="Start aggregation"/>
+                <apex:commandButton action="{!startAggregation}" value="Aggregate now"/>
                 <a href="{!scheduleJobURL}">{!scheduleJobLabel}</a>
             </apex:pageBlockButtons>
             <apex:pageBlockSection columns="2" collapsible="false" title="Twitter settings">

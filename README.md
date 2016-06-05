@@ -23,6 +23,7 @@ Settings page:
 5. For validation of correct configuring to click "Aggregate now" button and check job execution results in Twitter
 
 ###Known issues and future improvements:
+0. Write unit-tests
 1. Add processing of all retrieved questions (not only first result page)
 2. Fix issue with multiple tags (future methods-related)
 3. Improve integration with Twitter (replace manual configuration with 'Allow access..' ability)

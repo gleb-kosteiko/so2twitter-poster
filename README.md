@@ -22,16 +22,6 @@ Settings page:
 4. For scheduling iterative execution click "Scheduled job" link, past *SO2TP_ScheduleTweetGenerator* in Job Name and Apex Class fields and set Frequency
 5. For validation of correct configuring to click "Aggregate now" button and check job execution results in Twitter
 
-###Known issues and future improvements:
-0. Write unit-tests
-1. Add processing of all retrieved questions (not only first result page)
-2. Fix issue with multiple tags (future methods-related)
-3. Improve integration with Twitter (replace manual configuration with 'Allow access..' ability)
-
-
-
-*Feel free to make pull requests!*
-
 
 ---
 

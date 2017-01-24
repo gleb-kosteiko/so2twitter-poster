@@ -1,0 +1,4 @@
+- Improve testing
+- Add processing of all retrieved questions (not only first result page)
+- Fix issue with multiple tags (future methods-related)
+- Improve integration with Twitter (replace manual configuration with 'Allow access..' ability)

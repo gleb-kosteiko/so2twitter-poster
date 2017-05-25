@@ -12,11 +12,13 @@ Settings page:
 [My twitter-bot (as an example)](https://twitter.com/boguslau_ducker):
 ![Screenshot](images/twitter-bot-screenshot.png)
 
-###Deploy and configuration 
-1. <a href="https://githubsfdeploy.herokuapp.com/?owner=last-khajiit&repo=so2twitter-poster">
+### Deploy and configuration 
+1. Deploy to your ORG using this link
+<a href="https://githubsfdeploy.herokuapp.com/?owner=last-khajiit&repo=so2twitter-poster">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
+
 2. Use your Twitter acc for creation Twitter app [https://apps.twitter.com/](https://apps.twitter.com/)
 3. Go to Salesforce "So2Twitter Poster settings" tab and fill all the necessary settings  (use twitter-related from previous step)
 4. For scheduling iterative execution click "Scheduled job" link, past *SO2TP_ScheduleTweetGenerator* in Job Name and Apex Class fields and set Frequency
@@ -25,7 +27,7 @@ Settings page:
 
 ---
 
-**Copyright © 2017 Last Khajiit <last.khajiit@gmail.com>**
+**Copyright © 2017 Khajiit <last.khajiit@gmail.com>**
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,

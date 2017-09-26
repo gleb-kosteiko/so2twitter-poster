@@ -1,3 +1,5 @@
+- Add functionality for scheduled tweeting of hardcoded messages
+- Add functionality for looking and following users
 - Improve testing
 - Add processing of all retrieved questions (not only first result page)
 - Fix issue with multiple tags (future methods-related)

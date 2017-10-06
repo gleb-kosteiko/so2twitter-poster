@@ -2,3 +2,9 @@
 .settings/
 salesforce.schema
 Referenced Packages
+
+# Exclude all idea related project files
+.idea/
+*.iml
+*.ipr
+*.iws

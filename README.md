@@ -13,7 +13,7 @@ Bot aggregates Stackoverflow questions over the past 24 hours, and tweets their.
 Settings page:
 ![Screenshot](images/settings-page.png)
 
-[My twitter-bot (as an example)](https://twitter.com/boguslau_ducker):
+[My twitter-bot](https://twitter.com/salesforce_bot):
 ![Screenshot](images/twitter-bot-screenshot.png)
 
 ### Deploy and configuration 
@@ -31,7 +31,7 @@ Settings page:
 
 ---
 
-**Copyright © 2017 Khajiit <last.khajiit@gmail.com>**
+**Copyright © 2018 Hleb <last.khajiit@gmail.com>**
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,

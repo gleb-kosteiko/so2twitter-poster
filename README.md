@@ -4,9 +4,9 @@ Bot for posting new Stackoverflow questions to Twitter.
 
 _Implemented and deployed on base of Salesforce stack._
 
-[![release](https://img.shields.io/badge/release-v0.3-brightgreen.png?style=default)](https://github.com/last-khajiit/so2twitter-poster/releases/latest)
-[![Build Status](https://travis-ci.org/last-khajiit/so2twitter-poster.svg?branch=master)](https://travis-ci.org/last-khajiit/so2twitter-poster)
-[![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](https://raw.githubusercontent.com/last-khajiit/so2twitter-poster/master/copying.txt)
+[![release](https://img.shields.io/badge/release-v0.3-brightgreen.png?style=default)](https://github.com/gleb-kosteiko/so2twitter-poster/releases/latest)
+[![Build Status](https://travis-ci.org/gleb-kosteiko/so2twitter-poster.svg?branch=master)](https://travis-ci.org/gleb-kosteiko/so2twitter-poster)
+[![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](https://raw.githubusercontent.com/gleb-kosteiko/so2twitter-poster/master/copying.txt)
 
 Bot aggregates Stackoverflow questions over the past 24 hours, and tweets their. You can note exact tags for questions and choose - should it look for only unanswered questions or not.
 
@@ -18,7 +18,7 @@ Settings page:
 
 ### Deploy and configuration 
 1. Deploy to your ORG using this link
-<a href="https://githubsfdeploy.herokuapp.com/?owner=last-khajiit&repo=so2twitter-poster">
+<a href="https://githubsfdeploy.herokuapp.com/?owner=gleb-kosteiko&repo=so2twitter-poster">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
@@ -31,7 +31,7 @@ Settings page:
 
 ---
 
-**Copyright © 2018 Hleb <last.khajiit@gmail.com>**
+**Copyright © 2018 Gleb Kosteiko <gleb.kosteiko@gmail.com>**
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
